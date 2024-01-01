@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
+  labels:
+    test: run
   name: nginx
 spec:
   containers:
@@ -16,7 +18,7 @@ metadata:
   name: example-service
 spec:
   selector:
-    app: nginx
+    test: run
   ports:
     - port: 80
       targetPort: 80
