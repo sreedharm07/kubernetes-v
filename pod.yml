@@ -10,7 +10,7 @@ spec:
       image: nginx:1.14.2
       ports:
         - containerPort: 80
-    - name: nginx
+    - name: httpd
       image: httpd
       ports:
         - containerPort: 80
