@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: sreeharshav/flask:v1
+          image: nginx
           ports:
             - containerPort: 5000
 
