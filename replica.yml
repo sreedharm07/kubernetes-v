@@ -25,7 +25,6 @@ metadata:
   name: serve
 spec:
   selector:
-    app: guestbook
     tier: frontend
   ports:
     - port: 5000
