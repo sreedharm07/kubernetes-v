@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: sreeharshav/flask:v2
+          image: sreeharshav/flask:v1
           env:
             - name: DEMO_GREETING
               value: "Hello from the environment"
