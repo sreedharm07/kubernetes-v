@@ -19,6 +19,9 @@ spec:
     spec:
       containers:
         - name: flask
+          annotations:
+            imageregistry: "https://hub.docker.com/"
+            moredet: "this is the test text for testing purpose"
           image: sreeharshav/flask:v1
           ports:
             - containerPort: 5000
