@@ -27,5 +27,8 @@ spec:
               value: "Such a sweet sorrow"
           ports:
             - containerPort: 5000
-
+  strategy:
+     type: RollingUpdate
+     rollingUpdate:
+       maxUnavailable: 1
 
