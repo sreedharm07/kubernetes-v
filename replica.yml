@@ -27,9 +27,6 @@ metadata:
   name: serve
 spec:
   selector:
-
-
-  //
     tier: frontend
   ports:
     - port: 5000
