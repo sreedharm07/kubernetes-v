@@ -1,4 +1,2 @@
 # kubernetes-v
 sample
-
-hjn
