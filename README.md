@@ -1,5 +1,2 @@
 # kubernetes-v
 sample
-
-
-gk
